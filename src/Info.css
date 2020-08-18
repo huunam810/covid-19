@@ -1,0 +1,29 @@
+.info{
+    flex: 1;
+    cursor: pointer;
+}
+.info--green{
+    border-top: 10px solid greenyellow;
+}
+.info--red{
+    border-color: red;
+}
+.info:not(:last-child){
+    margin-right: 10px;
+}
+
+.info_cases{
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.info_cases--green{
+    color: lightgreen;
+}
+.info_total{
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 15rem;
+}
